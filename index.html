@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerald Elegance</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
-  <!-- Your content will go here -->
-  <script src="script.js"></script>
+    <header id="header">
+        <img src="images/colombianlogo.avif" alt="JR Colombian Logo" id="header-img" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#choose-stone">Choose Your Stone</a>
+            <a class="nav-link" href="#choose-jewelry">Choose Your Jewelry</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="choose-stone" class="feature-section">
+            <h2>Choose Your Stone</h2>
+            <p>Select from a curated collection of natural emeralds sourced from around the world. Our ethically-sourced
+                gemstones range from vibrant light green to deep forest hues.</p>
+            <img src="images/emeraldcluster.jpg" alt="Emerald Cluster" />
+        </section>
+
+        <section id="choose-jewelry" class="feature-section">
+            <h2>Choose Your Jewelry</h2>
+            <p>Set your emerald in rings, necklaces, bracelets, or custom designs. Our master jewelers craft each piece
+                to highlight the natural beauty of your selected stone.</p>
+            <img src="images/jewelry.webp" alt="Emerald ring" />
+        </section>
+
+        <section id="video-section" class="feature-section">
+            <h2>How It Works</h2>
+            <iframe id="video" width="315" height="560" src="https://www.youtube.com/embed/8LaoiT1XmBo"
+                title="Emerald Jewelry Video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        "title="Emerald Jewelry Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        ></iframe>
+        </section>
+
+        <section id="pricing" class="feature-section">
+            <h2>Pricing</h2>
+            <p>Transparent pricing based on stone size, clarity, and metal type. Our experts guide you through every
+                step to ensure you receive exceptional value for your investment.</p>
+            <img src="images/pricing.jpg" alt="Pricing Example" />
+        </section>
+
+        <section id="form-section">
+            <h2>Get Updates & Special Offers</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Subscribe" />
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2023 Emerald Elegance. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
